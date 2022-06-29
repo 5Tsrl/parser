@@ -7,7 +7,7 @@ const libpostal = require('../resources/libpostal/libpostal')
 
 // prefix languages
 // languages which use a street prefix instead of a suffix
-const prefix = ['fr', 'ca', 'es', 'pt', 'ro']
+const prefix = ['fr', 'ca', 'es', 'pt', 'ro', 'it']
 
 class StreetPrefixClassifier extends WordClassifier {
   setup () {
